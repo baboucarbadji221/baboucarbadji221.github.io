@@ -1,0 +1,56 @@
+touch index.html
+git init
+git config --global user.name 'baboucarbadji221'
+git config --global user.email 'baboucarbadji221@gmail.com'
+git add index.html
+git status
+git rm --cached index.html
+touch style.css
+git add .
+git rm -r --cached
+git add *.html *.css
+
+git checkout -- . ///*****Pour faire un roll back
+
+git commit
+//apuiyer sur i pour avoir INSERT
+//Dire pourquoi vous faitess un commit
+//apuyer sur echap
+//Taper :wq
+
+-Si on modifie les fichiers, on change, on met : git add *.html *.css
+-Puis: git commit -m 'nom du changement'
+
+Taper: touch .gitignore //Pour les fic qu'on veut ignorer
+git add .
+git commit -m 'ajout de gitignore'
+
+
+git branch fichierJS  ///Pour creer un nouvelle branche de nom fichierJS en cas de travil en prallele
+git checkout fichierJS
+
+git branch --list  //pour avoir la liste des branches
+
+touch main.js  //dans notre branche
+
+//////Puis faire git add . et git commit -m 'commentaire'
+
+//Puis retourner dans la branche principale: git checkout master  //alors le changements dans l'autre branche vont disparaitre
+//Pour fusionner les deux branches: git merge fichierJS
+
+//Creer un repertoire sur gitHub
+
+
+//creer un readme: touch README.md
+
+git add. 
+git commit -m 'ajout du fichier README.md'
+
+git push  :Pour enregistrer tous nos changement sur notre repository de gitHub
+
+//si on travaille en groupe et qu'on veut accepter les modifications des autres 
+alors on tape: git pull
+
+
+//si on perd notre code, alors on part dans gitHub, on click sur    et on copie le lien <<lien>> puis on va dans gitBash pour taper:
+on tape: git clone <<lien>>
