@@ -1,2 +1,2 @@
 # Tutoriel
-Ceci est est tutoriel pour la chaine youtube
+Ceci est est tutoriel d'une chaine youtube
